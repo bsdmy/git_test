@@ -1,0 +1,19 @@
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    background-color: bisque;
+    align-items:stretch;
+    justify-items: stretch;
+    padding: 5px;
+}
+#container > div{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 50px;
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 4rem;
+}

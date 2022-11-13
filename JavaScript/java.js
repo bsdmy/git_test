@@ -46,12 +46,7 @@ const display = function(Library){
     }
 }
 function changeVal(e){
-    console.log(e.target["value"])
-    console.log(myLibrary[e.target["value"]].read)
     myLibrary[e.target["value"]].read = myLibrary[e.target["value"]].read?false:true
-    for(let x=0;x<myLibrary.length;x++){
-        console.log(myLibrary[x].info())
-    }
     display(myLibrary)
 }
 
